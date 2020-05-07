@@ -1,0 +1,387 @@
+body{
+    margin: 0px;
+}
+
+
+.button{
+    display:flex;
+
+
+    margin-right: 18px;
+    font-size: 11px;
+    height: 34px;
+
+
+
+}
+
+.firstB{
+    margin-right: 9px;
+
+}
+.secondB{
+    margin-right: 9px;
+}
+i{
+    color:white;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+
+}
+.headertext{
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.header{
+    background-color:#316DC3 ;
+    padding: 10px 0px 5px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar-nav ul li a{
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+a.nav-item ,a.hover{
+    background-color:#316DC3 ;
+    transition: 0s;
+
+
+}
+.navbar{
+    background-color: #f7f8fa !important;
+
+}
+.navbar .navbar-brand{
+font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 17px;
+}
+.navbar .navbar-nav li a{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.navbar .navbar-brand,.navbar .navbar-nav li a:hover{
+    background-color:#316DC3 ;
+    color: white !important;
+    border-radius: 17px;
+    transition: 0s;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    background-color: white;
+
+}
+.main-menu{
+    display: flex;
+    position: sticky;
+    padding-top: 10px;
+    background-color: #f7f8fa !important;
+    height: 70px
+}
+.logo{
+    flex: 2
+    
+}
+
+.menu{
+    flex: 3
+}
+.navbar.nav-item li a{
+    font-weight: 400;
+}
+.movingtext{
+    display: flex;
+}
+.paradiv{
+    margin: 10px 98px 10px 98px;
+    flex-wrap: wrap;
+}
+.para1{
+    flex:3;
+    background-color:#316DC3 ;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    color: white;
+    height: 30px;
+}
+
+
+.headingicon {
+    margin: 0 auto;
+    max-width: 160px;
+    position: relative;
+  padding-left: 60px;
+    margin-bottom: 15px;
+}
+.headingicon::after {
+    content: "";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    color:#427900;
+    background-color:#427900;;
+    width: 36px;
+}
+
+.headingicon::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    background-color:#427900;;
+    color:#427900;
+    width: 36px;
+}
+
+
+.style1{
+    color: blue;
+}
+.style2{
+    color: rgb(0, 255, 0);
+}
+.topheading1{
+background-color: #f7f8fa !important;
+    padding: 60px 0 80px 0;
+}
+
+
+.headingstyle1{
+    font-family: 'Merriweather', serif;
+    font-size: 42px;
+    color:#316DC3 ;
+    font-weight: 600;
+}
+.headingstyle2{
+    font-family: 'Merriweather', serif;
+    font-size: 42px;
+    color: #427900;
+    font-weight: 600;
+}
+.toppara{
+    text-align: justify;
+}
+
+.funds{
+    background-color:#316DC3 ;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 0 ;
+}
+.fundsamount{
+    font-size: 70px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h5{
+    text-align: center;
+}
+.fundspic1{
+    text-align: center;
+    padding: 0 0 0 0;
+}
+.fundsdef{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.dates{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0, 255, 0);
+}
+
+.works{
+    background-color: #f7f8fa !important;
+}
+.secheading{
+    padding-left: 43px;
+}
+.col-xs-12 .col-sm-6 .col-md-4 .col-lg-4{
+
+    box-shadow: #0b2e13;
+
+}
+
+
+.worksimg{
+    padding: 60px 0 60px 0;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    box-shadow: 0px 5px 10px rgb(0,0,0 ,0.3);
+}
+.works1{
+    margin-top: 20px;
+    background-color: #f7f8fa !important;
+    margin-bottom: 50px;
+}
+h4{
+    padding-top: 25px;
+    color:#316DC3 ;
+}
+.missiontopheading{
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    line-height: 1.42857143;
+    color: #316DC3;
+    margin-left: 20px;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+    margin-left: 20px;
+
+}
+.missions{
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+    background-color: white;
+    padding:70px 0 0 0;
+}
+.missionicon{
+    padding: 22px 20px 0 0;}
+.icon-box {
+    background-color: #F7F8FA;
+    padding:5px 0 0 22px
+}
+.col-md-6{
+    margin-right: 0px;
+}
+
+.missionheading{
+    display: flex;
+    padding: 0 0 0 30px;
+}
+.missionheading1{
+    flex: 3;
+}
+.missionheading2{
+    flex: 1;
+}
+.imageall{
+    display: flex;
+
+    margin-bottom: 23px;
+}
+.missionimage23{
+    background-color: #F7F8FA;
+    padding-bottom: 10px;
+    margin-left: 54px;
+}
+.imageicon{
+display: flex;
+    justify-content: space-between;
+}
+.image23{
+    display: flex;
+}
+.missionmain{
+    display: flex;
+justify-content: space-between;
+}
+.missionmain1{
+
+}
+.image22{
+    background-color: #F7F8FA;
+}
+.heading22{
+    background-color: #F7F8FA;
+    padding-bottom: 10px;
+}
+.imagecarsoual{
+    margin: 40px 0 80px 0;
+}
+
+.missionpara{
+    color: #666666;
+    font-family: 'open', serif;
+    font-size: 14px;
+}
+.mision{
+    margin: 10px 0 40px 0;
+}
+.line1{
+    height: 2px;
+    background-color: #427900;
+   margin-right: 254px;
+}
+.line2{
+    margin-right: 972px;
+    height: 2px;
+    background-color: #427900;
+}
+.footer{
+    background-color: #25272E;
+}
+.fa-phone-alt {
+    color: #427900 !important;
+
+}
+.fa-globe-americas{
+ padding-left: 20px;
+    color: #427900 !important;
+}
+.fa-envelope{
+    color: #427900 !important;
+}
+.unorderlist{
+    list-style: none;
+    padding: 0;
+
+}
+.line-bottom::after {
+    bottom: -1px;
+    color:#427900 !important;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.container-fluid{
+    padding-right: 50px;
+}
+
+.pb-70 .pb40{
+    margin-left: 61px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-left: 108px;
+}
+.footer-line{
+    height: 2px;
+    color:#427900 !important;
+    left: 0;
+
+    background-color: #427900;
+}
+.bottom-footer{
+    background-color: #316DD9;
+    padding: 10px 0 5px 0 ;
+
+}
+.bottom-heading{
+    font-size: 18px;
+    font-family: 'open', serif;
+}
